@@ -569,6 +569,8 @@ Now that you've installed IPFS Kubo:
 
 [![IPFS CLI Basics: Accessing Files](./ressources/TD2/IPFS-command.png)](https://www.youtube.com/embed/EkQfoQprA8s?si=H09TN-2YljmZNFes "IPFS CLI Basics: Accessing Files")
 
+👆 Watch this video to learn IPFS cli commands
+
 ### Questions
 Be sure to have download [IPFS Desktop](#install-the-ipfs-desktop-app) and [IPFS CLI](#install-the-ipfs-desktop-cli) before starting this section
 - Q1 - Upload the previous [image]() to IPFS.
