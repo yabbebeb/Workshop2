@@ -50,7 +50,7 @@ torrent info <torrent file>
 ```
 
 ### Questions
-- Q1 - Create a torrent containing [this image]().
+- Q1 - Create a torrent containing [this image](https://cdn.futura-sciences.com/sources/images/Chaton.jpeg).
 - Q2 - Now copy the image to a new directory named `partition1` and create a torrent of this folder. What do you observe?
 - Q3 - Copy the `partition1` folder and then generate the associated torrent. What do you observe?
 
