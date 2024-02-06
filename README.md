@@ -1,3 +1,6 @@
+## Deposit
+https://docs.google.com/spreadsheets/d/13EYQlbR21EInNFw8eeWh_979qMzQ3_VGR898EAWdkeU/edit?usp=sharing
+
 ## Objectives
 - Understand the pros and cons of the BitTorrent, IPFS, Filecoin, and Arweave protocols.
 - Be able to deploy files on these protocols and understand how the files and data are saved.
