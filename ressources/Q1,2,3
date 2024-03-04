@@ -1,0 +1,33 @@
+Last login: Mon Mar  4 16:20:59 on ttys00((base) yanisbenchekroun@MBP-de-Yanis ~ % npm install -g torrent
+npm ERR! code EEXIST
+npm ERR! syscall mkdir
+npm ERR! path /Users/yanisbenchekroun/.npm/_cacache/content-v2/sha512/dd/97
+npm ERR! errno EEXIST
+npm ERR! Invalid response body while trying to fetch https://registry.npmjs.org/brace-expansion: EACCES: permission denied, mkdir '/Users/yanisbenchekroun/.npm/_cacache/content-v2/sha512/dd/97'
+npm ERR! File exists: /Users/yanisbenchekroun/.npm/_cacache/content-v2/sha512/dd/97
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in: /Users/yanisbenchekroun/.npm/_logs/2024-03-04T15_39_26_978Z-debug-0.log
+(base) yanisbenchekroun@MBP-de-Yanis ~ % torrent --version
+2.0.0
+(base) yanisbenchekroun@MBP-de-Yanis ~ % torrent create documents/chaton.jpeg  -o image.torrent
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % ls -l image.torrent 
+-rw-r--r--  1 yanisbenchekroun  staff  1200  4 mar 16:42 image.torrent
+(base) yanisbenchekroun@MBP-de-Yanis ~ % cp documents/chaton.jpeg partition1/chaton.jpeg
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % torrent create partition1 -o partition1.torrent
+
+refusing to overwrite existing torrent file
+(base) yanisbenchekroun@MBP-de-Yanis ~ % torrent create partition1 -o partition1_new.torrent
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % rm partition1.torrent
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % torrent create partition1 -o partition1.torrent
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % cp -r partition1 partition1_copy
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % torrent create partition1_copy -o partition1_copy.torrent
+
+(base) yanisbenchekroun@MBP-de-Yanis ~ % 
